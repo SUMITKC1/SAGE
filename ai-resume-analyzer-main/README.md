@@ -1,135 +1,227 @@
 <div align="center">
-  <br />
-    <a href="https://www.youtube.com/watch?v=iYOz165wGkQ" target="_blank">
-      <img src="public/readme/hero.webp" alt="Project Banner">
-    </a>
-  <br />
 
+
+   <h1 align="center">AI Resume Analyzer</h1>
+  
   <div>
-    <img alt="Static Badge" src="https://img.shields.io/badge/React-4c84f3?style=for-the-badge&logo=react&logoColor=white">
-        <img src="https://img.shields.io/badge/-Tailwind-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-        <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="TypeScript" />
-    <img alt="Static Badge" src="https://img.shields.io/badge/Puter.js-181758?style=for-the-badge&logoColor=white">
+    <img alt="React" src="https://img.shields.io/badge/React-19.1.0-4c84f3?style=for-the-badge&logo=react&logoColor=white">
+    <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5.8.3-3178C6?style=for-the-badge&logo=typescript&logoColor=white">
+    <img alt="Tailwind CSS" src="https://img.shields.io/badge/Tailwind_CSS-4.1.4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white">
+    <img alt="React Router" src="https://img.shields.io/badge/React_Router-7.5.3-CA4245?style=for-the-badge&logo=react-router&logoColor=white">
+    <img alt="Puter.js" src="https://img.shields.io/badge/Puter.js-181758?style=for-the-badge&logoColor=white">
   </div>
 
-  <h3 align="center">AI Resume Analyzer</h3>
+ 
+  <p align="center">
+    <strong>Smart feedback for your dream job!</strong><br>
+    Upload your resume, get ATS scores, and receive personalized improvement tips powered by AI.
+  </p>
 
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/watch?v=XUkNR-JfHwo" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
+  <div align="center">
+    <p><strong>🚀 Ready to optimize your resume?</strong></p>
+  </div>
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+## 📋 Table of Contents
 
-1. ✨ [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🔗 [Assets](#links)
-6. 🚀 [More](#more)
+- [✨ Introduction](#-introduction)
+- [🚀 Features](#-features)
+- [🛠️ Tech Stack](#️-tech-stack)
+- [📸 Screenshots](#-screenshots)
+- [⚡ Quick Start](#-quick-start)
+- [📖 Usage](#-usage)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
-## 🚨 Tutorial
+## ✨ Introduction
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
+**AI Resume Analyzer** (Resumind) is a modern web application that helps job seekers optimize their resumes for Applicant Tracking Systems (ATS) and improve their chances of landing their dream job. Built with React, TypeScript, and powered by Puter.js for seamless authentication and AI analysis.
 
-If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+### Key Benefits:
+- **ATS Optimization**: Get detailed scores and feedback on how well your resume performs in ATS systems
+- **AI-Powered Analysis**: Receive personalized improvement suggestions based on specific job descriptions
+- **Secure Storage**: Store and manage multiple resumes with cloud-based authentication
+- **Real-time Feedback**: Instant analysis with comprehensive scoring across multiple categories
 
-<a href="https://www.youtube.com/watch?v=iYOz165wGkQ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+## 🚀 Features
 
-## <a name="introduction">✨ Introduction</a>
+### 🔐 Authentication & Storage
+- **Seamless Login**: Browser-based authentication using Puter.js - no backend setup required
+- **Secure File Storage**: Upload and store resumes securely in the cloud
+- **Multi-Resume Management**: Organize and track multiple resume versions
 
-Build an AI-powered Resume Analyzer with React, React Router, and Puter.js! Implement seamless auth, upload and store resumes, and match candidates to jobs using smart AI evaluations. Get custom feedback and ATS scores tailored to each listing—all wrapped in a clean, reusable UI.
+### 📄 Resume Analysis
+- **ATS Scoring**: Get a comprehensive ATS compatibility score (0-100)
+- **Multi-Category Evaluation**: Detailed analysis across:
+  - Overall Score
+  - ATS Compatibility
+  - Tone & Style
+  - Content Quality
+  - Structure & Format
+  - Skills Assessment
+- **Job-Specific Feedback**: Tailored recommendations based on job title and description
+- **Visual Resume Preview**: View your resume as it appears to recruiters
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **50k+** members. It's a place where people help each other out.
+### 🎯 Smart Recommendations
+- **Personalized Tips**: Actionable improvement suggestions for each category
+- **Good vs. Improve**: Clear distinction between strengths and areas for improvement
+- **Detailed Explanations**: In-depth feedback with specific examples and guidance
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+### 🎨 Modern UI/UX
+- **Responsive Design**: Works seamlessly across desktop, tablet, and mobile devices
+- **Beautiful Interface**: Clean, professional design with smooth animations
+- **Intuitive Navigation**: Easy-to-use interface for uploading and reviewing resumes
+- **Real-time Processing**: Live status updates during resume analysis
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+## 🛠️ Tech Stack
 
-- **[React](https://react.dev/)** is a popular open‑source JavaScript library for building user interfaces using reusable components and a virtual DOM, enabling efficient, dynamic single-page and native apps.
+### Frontend
+- **React 19.1.0** - Modern UI library with hooks and functional components
+- **TypeScript 5.8.3** - Type-safe JavaScript development
+- **React Router 7.5.3** - Client-side routing with data loading
+- **Tailwind CSS 4.1.4** - Utility-first CSS framework
+- **Zustand 5.0.6** - Lightweight state management
 
-- **[React Router v7](https://reactrouter.com/)** is the go‑to routing library for React apps, offering nested routes, data loaders/actions, error boundaries, code splitting, and SSR support—all with a smooth upgrade path from v6.
+### Backend & Services
+- **Puter.js** - Serverless backend with auth, storage, and AI
+- **PDF.js** - PDF processing and conversion
+- **React Dropzone** - File upload handling
 
-- **[Puter.com](https://jsm.dev/resumind-puter)** is an advanced, open-source internet operating system designed to be feature-rich, exceptionally fast, and highly extensible. Puter can be used as: A privacy-first personal cloud to keep all your files, apps, and games in one secure place, accessible from anywhere at any time.
+### Development Tools
+- **Vite 6.3.3** - Fast build tool and dev server
+- **CLSX** - Conditional CSS class names
+- **Tailwind Merge** - Tailwind class merging utility
 
-- **[Puter.js](https://jsm.dev/resumind-puterjs)** is a tiny client‑side SDK that adds serverless auth, storage, database, and AI (GPT, Claude, DALL·E, OCR…) straight into your browser app—no backend needed and costs borne by users.
+## 📸 Screenshots
 
-- **[Tailwind CSS](https://tailwindcss.com/)** is a utility-first CSS framework that allows developers to design custom user interfaces by applying low-level utility classes directly in HTML, streamlining the design process.
+### Landing Page
+![Landing Page](public/bg-main.svg)
+*Welcome to Resumind - Your AI-powered resume optimization companion*
 
-- **[TypeScript](https://www.typescriptlang.org/)** is a superset of JavaScript that adds static typing, providing better tooling, code quality, and error detection for developers, making it ideal for building large-scale applications.
+### Authentication
+![Authentication](public/home.svg)
+*Secure, one-click authentication powered by Puter.js*
 
-- **[Vite](https://vite.dev/)** is a fast build tool and dev server using native ES modules for instant startup, hot‑module replacement, and Rollup‑powered production builds—perfect for modern web development.
+### Processing Animation
+![Processing](public/images/resume-scan.gif)
+*Real-time processing feedback during AI analysis*
 
-- **[Zustand](https://github.com/pmndrs/zustand)** is a minimal, hook-based state management library for React. It lets you manage global state with zero boilerplate, no context providers, and excellent performance through selective state subscriptions.
+## ⚡ Quick Start
 
-## <a name="features">🔋 Features</a>
-
-👉 **Easy & convenient auth**: Handle authentication entirely in the browser using Puter.js—no backend or setup required.
-
-👉 **Resume upload & storage**: Let users upload and store all their resumes in one place, safely and reliably.
-
-👉 **AI resume matching**: Provide a job listing and get an ATS score with custom feedback tailored to each resume.
-
-👉 **Reusable, modern UI**: Built with clean, consistent components for a great-looking and maintainable interface.
-
-👉 **Code Reusability**: Leverage reusable components and a modular codebase for efficient development.
-
-👉 **Cross-Device Compatibility**: Fully responsive design that works seamlessly across all devices.
-
-👉 **Modern UI/UX**: Clean, responsive design built with Tailwind CSS and shadcn/ui for a sleek user experience.
-
-And many more, including code architecture and reusability.
-
-## <a name="quick-start">🤸 Quick Start</a>
-
-Follow these steps to set up the project locally on your machine.
-
-**Prerequisites**
+### Prerequisites
 
 Make sure you have the following installed on your machine:
 
+- [Node.js](https://nodejs.org/) (v18 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 - [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
 
-**Cloning the Repository**
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/adrianhajdin/ai-resume-analyzer.git
+   cd ai-resume-analyzer
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   Navigate to [http://localhost:5173](http://localhost:5173)
+
+### Building for Production
 
 ```bash
-git clone https://github.com/adrianhajdin/ai-resume-analyzer.git
-cd ai-resume-analyzer
+npm run build
+npm start
 ```
 
-**Installation**
+## 📖 Usage
 
-Install the project dependencies using npm:
+### Getting Started
 
-```bash
-npm install
-```
+1. **Sign In**: Click "Log In" to authenticate using Puter.js
+2. **Upload Resume**: Navigate to the upload page and select your PDF resume
+3. **Add Job Details**: Enter the company name, job title, and job description
+4. **Get Analysis**: Submit and wait for AI-powered analysis
+5. **Review Feedback**: Explore detailed scores and improvement suggestions
 
-**Running the Project**
+### Understanding Your Results
 
-```bash
-npm run dev
-```
+#### ATS Score (0-100)
+- **90-100**: Excellent - Your resume will likely pass ATS filters
+- **70-89**: Good - Minor improvements recommended
+- **50-69**: Fair - Several areas need attention
+- **0-49**: Needs Work - Significant improvements required
 
-Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
+#### Feedback Categories
+- **Overall Score**: Comprehensive evaluation of your resume
+- **ATS Compatibility**: How well your resume matches ATS requirements
+- **Tone & Style**: Professional language and presentation
+- **Content Quality**: Relevance and impact of your content
+- **Structure**: Organization and formatting
+- **Skills**: Technical and soft skills assessment
 
-## <a name="links">🔗 Assets</a>
+### Tips for Best Results
 
-Assets and snippets used in the project can be found in the **[video kit](https://jsm.dev/resumind-kit)**.
+1. **Use PDF Format**: Ensure your resume is in PDF format for optimal processing
+2. **Include Job Description**: Provide detailed job descriptions for more accurate feedback
+3. **Review All Categories**: Pay attention to all feedback areas, not just the overall score
+4. **Iterate and Improve**: Use the feedback to create multiple versions of your resume
 
-<a href="https://jsm.dev/resumind-kit" target="_blank">
-  <img src="public/readme/videokit.webp" alt="Video Kit Banner">
-</a>
+## 🤝 Contributing
 
-## <a name="more">🚀 More</a>
+We welcome contributions from the community! Here's how you can help:
 
-**Advance your skills with Next.js Pro Course**
+### Development Setup
 
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with
-detailed explanations, cool features, and exercises to boost your skills. Give it a go!
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/amazing-feature`
+3. Make your changes and test thoroughly
+4. Commit your changes: `git commit -m 'Add amazing feature'`
+5. Push to the branch: `git push origin feature/amazing-feature`
+6. Open a Pull Request
 
-<a href="https://jsm.dev/resumind-courses" target="_blank">
-  <img src="public/readme/jsmpro.webp" alt="Project Banner">
-</a>
+### Guidelines
+
+- Follow the existing code style and conventions
+- Add tests for new features
+- Update documentation as needed
+- Ensure all tests pass before submitting
+
+### Reporting Issues
+
+- Use the GitHub issue tracker
+- Provide detailed reproduction steps
+- Include browser and OS information
+- Attach relevant screenshots or logs
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- **Puter.js** for providing the serverless backend infrastructure
+- **React Router** team for the excellent routing solution
+- **Tailwind CSS** for the beautiful utility-first CSS framework
+- **Open source community** for the amazing tools and libraries
+
+## 📞 Support
+
+- **GitHub Issues**: [Report bugs or request features](https://github.com/adrianhajdin/ai-resume-analyzer/issues)
+- **Documentation**: Check the code comments and component structure for implementation details
+
+---
+
+<div align="center">
+  <p>Made with ❤️ by the open source community</p>
+</div>
