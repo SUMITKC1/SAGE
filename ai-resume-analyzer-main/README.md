@@ -94,12 +94,12 @@
 
 ## 📸 Screenshots
 
-### Landing Page
-![Landing Page](public/bg-main.svg)
+### Home Page
+![Home Page](ai-resume-analyzer-main/public/home.svg)
 *Welcome to Resumind - Your AI-powered resume optimization companion*
 
-### Authentication
-![Authentication](public/home.svg)
+### Upload Page
+![Upload Page](ai-resume-analyzer-main/public/upload.svg)
 *Secure, one-click authentication powered by Puter.js*
 
 ### Processing Animation
