@@ -32,6 +32,19 @@
 - [📖 Usage](#-usage)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
+## 📸 Screenshots
+
+### Home Page
+![Home Page](public/home.png)
+
+
+### Upload Page
+![Upload Page](public/upload.png)
+
+
+### Processing Animation
+![Processing](public/images/resume-scan.gif)
+
 
 ## ✨ Introduction
 
@@ -92,19 +105,6 @@
 - **CLSX** - Conditional CSS class names
 - **Tailwind Merge** - Tailwind class merging utility
 
-## 📸 Screenshots
-
-### Home Page
-![Home Page](ai-resume-analyzer-main/public/home.svg)
-*Welcome to Resumind - Your AI-powered resume optimization companion*
-
-### Upload Page
-![Upload Page](ai-resume-analyzer-main/public/upload.svg)
-*Secure, one-click authentication powered by Puter.js*
-
-### Processing Animation
-![Processing](public/images/resume-scan.gif)
-*Real-time processing feedback during AI analysis*
 
 ## ⚡ Quick Start
 
